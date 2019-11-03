@@ -1,0 +1,50 @@
+body {
+	background: url("back3.jpg") center ;
+  height: 90vh;
+  background-size:cover;
+  padding: 0;
+  margin: 0;
+  font-family: georgia;
+  color:brown;
+  
+}
+.us {
+		padding:15px;
+		margin-bottom:25px;
+		
+}
+* {
+	box-sizing:border-box;
+}
+.box1 {
+	height:400px;
+     width: 1000px;
+     border:none;
+     margin:40px;
+     border-radius:25px;
+     background-color:transparent;
+      margin-left: 100px;
+	  padding:30px;
+	  display:inline-block;
+
+}
+img {
+	border-radius:70px;
+}
+.c {
+  float: left;
+  width: 25%;
+  padding: 5px;
+  text-align:center;
+  color:gray;
+  font-family:courier;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+figcaption {
+	text-align:center;
+	color: royalblue;
+}
